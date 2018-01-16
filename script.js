@@ -8,10 +8,6 @@ const roomHash = location.hash.substring(1);
 const drone = new ScaleDrone('63o6Zfoz6yeAcJDG');
 // Room name needs to be prefixed with 'observable-'
 const roomName = 'observable-' + roomHash;
-const configuration = {
-  iceServers: [{
-  }]
-};
 let room;
 let pc;
 
